@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Internet Empire</title>
+  <meta name="google-adsense-account" content="ca-pub-7914043919657788">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Internet Empire</h1>
+
+  <div id="banner-left" class="banner">Banner Pubblicitario</div>
+  <div id="banner-right" class="banner">Banner Pubblicitario</div>
+
+  <div id="container">
+    <div id="upgrade-store">
+      <h2>Upgrade Store</h2>
+      <div id="upgrades-list"></div>
+    </div>
+
+    <div id="main-area">
+      <button id="click-btn">Sviluppa App</button>
+
+      <div id="stats">
+        <span>💰 ClickCoin: <strong id="coins">0</strong></span>
+        <span>⌛ ClickCoin/sec: <strong id="per-second">0</strong></span><br/>
+
+        <span>🎓 Livello: <strong id="level">1</strong> (<span id="xp">0</span>/<span id="xp-needed">100</span> XP)</span><br/>
+        <span>🏷️ Titolo: <strong id="title">Tirocinante</strong></span>
+      </div>
+
+      <div id="xp-container">
+        <div id="xp-bar"></div>
+      </div>
+
+      <div id="bit-tokens-container" style="margin-top: 15px; color: #00ffcc; font-weight: bold;">
+        BitToken: <span id="bitTokens">0</span>
+      </div>
+    </div>
+
+    <div id="missions">
+      <h2>Missioni giornaliere</h2>
+      <ul id="missions-list"></ul>
+    </div>
+
+    <div id="advanced-features" class="locked">
+      <h2>Feature Avanzate</h2>
+      <p id="advanced-lock-text">Sblocca a 10.000 ClickCoin</p>
+      <div id="advanced-upgrades-list" style="display:none;"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
